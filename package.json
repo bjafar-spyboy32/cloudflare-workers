@@ -1,0 +1,13 @@
+{
+  "name": "cloudflare-workers",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "build": "echo \"No build step\"",
+    "deploy": "wrangler publish"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
